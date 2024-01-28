@@ -19,7 +19,7 @@ var CS20GeoJSON = {
     ]
   }
 
-  L.geoJSON(CM20GeoJSON, {
+  L.geoJSON(CS20GeoJSON, {
     onEachFeature: function (feature, layer) {
     var CS20Popup =
         "<h3>" + feature.properties.title + "</h3>" +
